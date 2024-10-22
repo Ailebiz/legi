@@ -1,0 +1,221 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8b929643;
+    height: 100%;
+     
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+   
+}
+.p{
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.img{
+    width: 1000px;
+    height: 1000px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(251, 248, 248);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px; 
+    text-align: center;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.id{
+ 
+    box-shadow: 0 3px 0px #e8eae500;
+    transition-duration: 500ms;
+}
+.id:hover{
+    color: aqua;
+    top: 3px;
+    box-shadow: 0 6px 0px #52e35900;
+    background-color: #50ed0d;
+}
+
+ .afisha{
+    position: relative;
+    top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-image: url(https://grizly.club/sec2/uploads/posts/2024-02/grizly-club-p-fon-priroda-s-listochkami-27.jpg);
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+h3{
+    position: relative;
+    top: 40px;
+    background-color: #2e8b57;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+.keste{
+    position: relative;  
+    top: -30px; 
+    top: 30px;
+    margin-left: 80px;
+    border-radius: 10px ;
+    color: rgb(1, 116, 9);
+    padding: 50px 70px;
+} 
+
+video{
+    width: 1000px;
+    height: 500px;
+    margin-left: 110px;
+    top: -300px;
+}  
+.main{
+    font-family: "Lucida Console", Courier, monospace;
+}
+h2{
+    background-color: #2ecc71;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3px;
+    top: 100  px;
+  }
+  .suret{
+    width: 500px;
+    height: 300px;
+    transition-duration: 0.5s;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+  }
+  .suret:hover {
+    opacity: 85%;
+    transition: 3s;
+  
+  
+ }
+ p{
+   
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+ }
+ p:hover{
+    background-color: #45a049;
+    transform: skew(15deg);
+ }
+ table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 3px solid #4CAF50;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+   
+}
+tr:nth-child(even) {
+    background-color: #e7f9e7;
+}
+tr:hover {
+    background-color: #d0f0c0;
+}
+.grid-container{
+    list-style: none;
+}
+.card2 {
+    display: flex;
+    justify-content: space-between; 
+}
+  
+.card {
+    margin: 10px;
+   
+    width: 18rem;
+    border: 2px solid #4CAF50; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Көлеңке */
+    overflow: hidden; /* Сурет шекарадан асып кетпеуі үшін */
+}
+
+
+.card-img-top {
+    width: 100%; 
+    height: 40%; 
+    
+}
+
+.card-body {
+    background-color: #f0f9f0; 
+    padding: 15px; 
+}
+
+.card-title {
+    color: #4CAF50; 
+    margin-bottom: 10px;
+}
+.card-text {
+    color: #333; 
+    margin-bottom: 15px; 
+}
+
+.btn {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; /* Шекара жоқ */
+    border-radius: 5px; 
+    text-decoration: none; /* Төменгі сызық жоқ */
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #000000;
+}
